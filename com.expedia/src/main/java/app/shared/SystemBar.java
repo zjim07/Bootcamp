@@ -1,2 +1,6 @@
-package app.shared;public class SystemBar {
+package app.shared;
+
+import base.BasePage;
+
+public class SystemBar extends BasePage {
 }
