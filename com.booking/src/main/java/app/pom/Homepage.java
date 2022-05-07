@@ -112,6 +112,9 @@ public class Homepage extends SystemBar {
         Random random = new Random();
         int randomResult = random.nextInt(maxResults);
         results.get(randomResult).click();
+
+
+
         //my random method
 //        int max = autoSuggestions.size() - 1;
 //        int randomNumber = (int)(Math.random()*(max-min+1)+min);
