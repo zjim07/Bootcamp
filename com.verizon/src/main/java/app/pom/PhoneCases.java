@@ -33,6 +33,27 @@ public class PhoneCases extends SystemBar {
         cheapestElement.click();
     }
 
+    public void findMostExpensiveItem(){
+        double max = Double.MIN_VALUE;
+        WebElement priciestElement = null;
+
+        for(WebElement element : prices){
+
+            StringBuilder sb = new StringBuilder(element.getText());
+            sb.deleteCharAt(0);
+            String price = sb.toString();
+            System.out.println(price);
+            double doublePrice = Double.parseDouble(price);
+            if(doublePrice > max){
+                max = doublePrice;
+                priciestElement = element;
+            }
+        }
+
+        System.out.println("THIS IS THE MAXIMUM FOUND! " + max);
+        priciestElement.click();
+    }
+
     public PhoneCases(){
         PageFactory.initElements(driver, this);
     }

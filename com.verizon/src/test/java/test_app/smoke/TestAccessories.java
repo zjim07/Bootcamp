@@ -13,13 +13,22 @@ import java.util.List;
 public class TestAccessories extends BaseTest {
 
     @Test
-    public void testFirstLink() throws InterruptedException {
+    public void testFindCheapestPhoneCaseLink()  {
         Homepage homepage = new Homepage();
         homepage.clickAccessoriesLink();
         AccessoriesPage ap = new AccessoriesPage();
         ap.clickPhoneAccessoriesColumnCategory("Cases");
         PhoneCases phoneCases = new PhoneCases();
         phoneCases.findCheapestPrice();
-        Thread.sleep(3000);
+    }
+
+    @Test
+    public void testFindPriciestPhoneCaseLink(){
+        Homepage homepage = new Homepage();
+        homepage.clickAccessoriesLink();
+        AccessoriesPage ap = new AccessoriesPage();
+        ap.clickPhoneAccessoriesColumnCategory("Cases");
+        PhoneCases phoneCases = new PhoneCases();
+        phoneCases.findMostExpensiveItem();
     }
 }
