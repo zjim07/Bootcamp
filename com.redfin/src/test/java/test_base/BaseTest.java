@@ -1,2 +1,7 @@
-package test_base;public class BaseTest {
+package test_base;
+
+import base.BasePage;
+
+public class BaseTest extends BasePage {
+
 }
