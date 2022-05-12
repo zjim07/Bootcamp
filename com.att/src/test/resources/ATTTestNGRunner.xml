@@ -6,12 +6,12 @@
         <listener class-name="listeners.AnnotationTransformer"/>
     </listeners>
 
-    <parameter name="browser" value="firefox"/>
+    <parameter name="browser" value="chrome"/>
     <parameter name="url" value="http://att.com"/>
 
     <test name="test">
         <classes>
-            <class name="testATT.TestTestClass"/>
+            <class name="testATT.TestATT"/>
         </classes>
     </test>
 </suite>
