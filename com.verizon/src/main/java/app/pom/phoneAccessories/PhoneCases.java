@@ -29,7 +29,6 @@ public class PhoneCases extends SystemBar {
             }
         }
 
-        System.out.println("THIS IS THE MINIMUM FOUND! " + min);
         cheapestElement.click();
     }
 
@@ -50,7 +49,6 @@ public class PhoneCases extends SystemBar {
             }
         }
 
-        System.out.println("THIS IS THE MAXIMUM FOUND! " + max);
         priciestElement.click();
     }
 
