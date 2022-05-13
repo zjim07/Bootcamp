@@ -9,4 +9,10 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="url" value="http://booking.com"/>
 
+    <test name="Booking - States">
+        <classes>
+            <class name="test_app.smoke.TestBooking"/>
+        </classes>
+    </test>
+
 </suite>

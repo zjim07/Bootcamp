@@ -3,3 +3,221 @@ Test Case #1:
 1. Navigate to espn.com
 2. Hover over NFL
 3. Select Buffalo Bills
+4. Verify that you have been directed to the correct page.
+
+Test Case #2:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select Miami Dolphins
+4. Verify that you have been directed to the correct page.
+
+Test Case #3:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select New England Patriots
+4. Verify that you have been directed to the correct page.
+
+Test Case #4:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select New York Jets
+4. Verify that you have been directed to the correct page.
+
+Test Case #5:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select Baltimore Ravens
+4. Verify that you have been directed to the correct page.
+
+Test Case #6:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select Cincinnati Bengals
+4. Verify that you have been directed to the correct page.
+
+Test Case #7:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select Cleveland Browns
+4. Verify that you have been directed to the correct page.
+
+Test Case #8:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select Pittsburgh Steelers
+4. Verify that you have been directed to the correct page.
+
+Test Case #9:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select Houston Texans
+4. Verify that you have been directed to the correct page.
+
+Test Case #10:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select Indianapolis Colts
+4. Verify that you have been directed to the correct page.
+
+Test Case #11:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select Jacksonville Jaguars
+4. Verify that you have been directed to the correct page.
+
+Test Case #12:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select Tennessee Titans
+4. Verify that you have been directed to the correct page.
+
+Test Case #13:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select Denver Broncos
+4. Verify that you have been directed to the correct page.
+
+Test Case #14:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select Kansas City Chiefs
+4. Verify that you have been directed to the correct page.
+
+Test Case #15:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select Las Vegas Raiders
+4. Verify that you have been directed to the correct page.
+
+Test Case #16:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select Los Angeles Chargers
+4. Verify that you have been directed to the correct page.
+
+Test Case #17:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select Dallas Cowboys
+4. Verify that you have been directed to the correct page.
+
+Test Case #18:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select New York Giants
+4. Verify that you have been directed to the correct page.
+
+Test Case #19:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select Philadelphia Eagles
+4. Verify that you have been directed to the correct page.
+
+Test Case #20:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select Washington Commanders
+4. Verify that you have been directed to the correct page.
+
+Test Case #21:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select Chicago Bears
+4. Verify that you have been directed to the correct page.
+
+Test Case #22:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select Detroit Lions
+4. Verify that you have been directed to the correct page.
+
+Test Case #23:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select Green Bay Packers
+4. Verify that you have been directed to the correct page.
+
+Test Case #24:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select Minnesota Vikings
+4. Verify that you have been directed to the correct page.
+
+Test Case #25:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select Atlanta Falcons
+4. Verify that you have been directed to the correct page.
+
+Test Case #26:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select Carolina Panthers
+4. Verify that you have been directed to the correct page.
+
+Test Case #27:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select New Orleans Saints
+4. Verify that you have been directed to the correct page.
+
+Test Case #28:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select Tampa Bay Buccaneers
+4. Verify that you have been directed to the correct page.
+
+Test Case #29:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select Arizona Cardinals
+4. Verify that you have been directed to the correct page.
+
+Test Case #30:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select Los Angeles Rams
+4. Verify that you have been directed to the correct page.
+
+Test Case #31:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select San Francisco 49ers
+4. Verify that you have been directed to the correct page.
+
+Test Case #32:
+
+1. Navigate to espn.com
+2. Hover over NFL
+3. Select Seattle Seahawks
+4. Verify that you have been directed to the correct page.

@@ -113,12 +113,44 @@ public class Homepage extends SystemBar {
         int randomResult = random.nextInt(maxResults);
         results.get(randomResult).click();
 
+    }
 
+    public void selectSuggestion(){
 
-        //my random method
-//        int max = autoSuggestions.size() - 1;
-//        int randomNumber = (int)(Math.random()*(max-min+1)+min);
-//        clickOnElement(autoSuggestions.get(randomNumber));
+        try {
+            webDriverWait.until(ExpectedConditions.visibilityOf(autoSuggestionWhole));
+        } catch (WebDriverException e){
+            e.printStackTrace();
+        }
+        List<WebElement> results = autoSuggestions;
+
+        clickOnElement(results.get(0));
+
+    }
+
+    public void selectSecondSuggestion(){
+
+        try {
+            webDriverWait.until(ExpectedConditions.visibilityOf(autoSuggestionWhole));
+        } catch (WebDriverException e){
+            e.printStackTrace();
+        }
+        List<WebElement> results = autoSuggestions;
+
+        clickOnElement(results.get(1));
+
+    }
+
+    public void selectFourthSuggestion(){
+
+        try {
+            webDriverWait.until(ExpectedConditions.visibilityOf(autoSuggestionWhole));
+        } catch (WebDriverException e){
+            e.printStackTrace();
+        }
+        List<WebElement> results = autoSuggestions;
+
+        clickOnElement(results.get(3));
 
     }
 

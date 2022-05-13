@@ -1,4 +1,4 @@
-package app.pom;
+package app.pom.phoneAccessories;
 
 import app.shared.SystemBar;
 import org.openqa.selenium.WebElement;
@@ -12,7 +12,14 @@ public class PhoneCases extends SystemBar {
     @FindBy(xpath = "//div[@class='Tile__Pricing-sc-71g958-10 fClbGb blur']/p")
     public List<WebElement> prices;
 
-    public void findCheapestPrice(){
+    @FindBy(xpath = "//span[@class='StyledTypography-sc-5k55co-0 jXNKUS StyledBody-sc-1s1yqd8-0 ZEszq']")
+    public WebElement section;
+
+    public String getSectionText(){
+        return section.getText();
+    }
+
+    public double findCheapestPrice(){
         double min = Double.MAX_VALUE;
         WebElement cheapestElement = null;
 
@@ -30,9 +37,10 @@ public class PhoneCases extends SystemBar {
         }
 
         cheapestElement.click();
+        return min;
     }
 
-    public void findMostExpensiveItem(){
+    public double findMostExpensiveItem(){
         double max = Double.MIN_VALUE;
         WebElement priciestElement = null;
 
@@ -50,6 +58,7 @@ public class PhoneCases extends SystemBar {
         }
 
         priciestElement.click();
+        return max;
     }
 
     public PhoneCases(){

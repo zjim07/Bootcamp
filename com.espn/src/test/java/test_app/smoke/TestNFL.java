@@ -27,7 +27,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(0).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(0).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -50,7 +50,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(1).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(1).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -73,7 +73,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(2).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(2).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -96,7 +96,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(3).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(3).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -119,7 +119,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(4).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(4).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -142,7 +142,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(5).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(5).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -165,7 +165,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(6).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(6).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -188,7 +188,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(7).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(7).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -211,7 +211,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(8).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(8).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -234,7 +234,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(9).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(9).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -257,7 +257,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(10).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(10).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -280,7 +280,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(11).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(11).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -303,7 +303,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(12).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(12).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -326,7 +326,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(13).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(13).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -349,7 +349,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(14).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(14).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -372,7 +372,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(15).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(15).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -395,7 +395,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(16).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(16).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -418,7 +418,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(17).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(17).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -441,7 +441,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(18).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(18).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -464,7 +464,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(19).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(19).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -487,7 +487,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(20).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(20).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -510,7 +510,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(21).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(21).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -533,7 +533,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(22).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(22).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -556,7 +556,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(23).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(23).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -579,7 +579,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(24).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(24).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -602,7 +602,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(25).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(25).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -625,7 +625,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(26).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(26).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -648,7 +648,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(27).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(27).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -671,7 +671,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(28).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(28).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -694,7 +694,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(29).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(29).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -717,7 +717,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(30).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(30).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
@@ -740,7 +740,7 @@ public class TestNFL extends BaseTest {
 
         String actualResults = nflTeamPage.nflTeamName.getText().replace("\n", " ").toLowerCase();
         System.out.println("ACTUAL: " + actualResults);
-        String expectedResults = excel.readStringList("Sheet1").get(31).toLowerCase();
+        String expectedResults = excel.readStringList("NFLTeams").get(31).toLowerCase();
         System.out.println("EXPECTED: " + expectedResults);
 
         Assert.assertEquals(actualResults, expectedResults);
