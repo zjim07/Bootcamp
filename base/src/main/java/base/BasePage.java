@@ -78,7 +78,7 @@ public class BasePage {
 
     @Parameters({"driverConfigEnabled", "browser", "url"})
     @BeforeMethod
-    public void driverSetup(@Optional("true") String driverConfigEnabled, @Optional("chrome") String browser, @Optional("automationpractice.com") String url) {
+    public void driverSetup(@Optional("true") String driverConfigEnabled, @Optional("chrome") String browser, @Optional("booking.com") String url) {
         if (Boolean.parseBoolean(driverConfigEnabled)) {
             driverInit(browser);
             driver.get(url);
@@ -180,7 +180,7 @@ public class BasePage {
         return text;
     }
 
-    public void clickOnElement(WebElement element) {
+    public static void clickOnElement(WebElement element) {
         webDriverWait.until(ExpectedConditions.elementToBeClickable(element));
         element.click();
     }
