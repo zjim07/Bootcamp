@@ -1,0 +1,85 @@
+Test Case #1: Obtaining Info On Multimedia.
+Navigate to URL
+Click on 'Newsroom'
+Click 'Multimedia'
+
+Test Case #2: Obtaining Info On Awards.
+Navigate to URL
+Click on 'Newsroom'
+Click 'Awards'
+
+Test Case #3: Obtaining Info On Expedia International.
+Navigate to URL
+Click on 'Newsroom'
+Click 'Expedia International'
+
+Test Case #4: Obtaining Info On Out Travel The System.
+Navigate to URL
+Click on 'Newsroom'
+Click 'Out Travel The System'
+
+Test Case #5: Searching for vacations to NYC.
+Navigate to URL
+Select destination
+Select dates
+Apply search criteria to obtain results
+
+Test Case #6: Searching for vacations to Mexico.
+Navigate to URL
+Select destination
+Select dates
+Apply search criteria to obtain results
+
+Test Case #7: Searching for vacations to South Africa.
+Navigate to URL
+Select destination
+Select dates
+Apply search criteria to obtain results
+
+Test Case #8: Searching for vacations to Istambul.
+Navigate to URL
+Select destination
+Select dates
+Apply search criteria to obtain results
+
+Test Case #9: Searching for vacations to Japan.
+Navigate to URL
+Select destination
+Select dates
+Apply search criteria to obtain results
+
+Test Case #10: Searching for vacations to Rome.
+Navigate to URL
+Select destination
+Select dates
+Apply search criteria to obtain results
+
+Test Case #11: Searching for vacations to Milan.
+Navigate to URL
+Select destination
+Select dates
+Apply search criteria to obtain results
+
+Test Case #12: Searching for vacations to Madrid.
+Navigate to URL
+Select destination
+Select dates
+Apply search criteria to obtain results
+
+Test Case #13 Searching for vacations to Barcelona.
+Navigate to URL
+Select destination
+Select dates
+Apply search criteria to obtain results
+
+Test Case #14: Searching for vacations to Sydney.
+Navigate to URL
+Select destination
+Select dates
+Apply search criteria to obtain results
+
+Test Case #15 Searching for vacations to Newcastle.
+Navigate to URL
+Select destination
+Select dates
+Apply search criteria to obtain results

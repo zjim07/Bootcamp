@@ -9,4 +9,41 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="url" value="http://marketwatch.com"/>
 
+    <test name="MarketWatch - USMarket">
+        <classes>
+            <class name="test_app.smoke.TestUnitedStatesMarketPage"/>
+        </classes>
+    </test>
+    <test name="MarketWatch - EuropeMarket">
+        <classes>
+            <class name="test_app.smoke.TestEuropeMarketPage"/>
+        </classes>
+    </test>
+    <test name="MarketWatch - AsiaMarket">
+        <classes>
+            <class name="test_app.smoke.TestAsiaMarketPage"/>
+        </classes>
+    </test>
+    <test name="MarketWatch - FXMarket">
+        <classes>
+            <class name="test_app.smoke.TestFXMarketPage"/>
+        </classes>
+    </test>
+    <test name="MarketWatch - RateMarket">
+        <classes>
+            <class name="test_app.smoke.TestRatesMarket"/>
+        </classes>
+    </test>
+    <test name="MarketWatch - FuturesMarket">
+        <classes>
+            <class name="test_app.smoke.TestFuturesMarket"/>
+        </classes>
+    </test>
+    <test name="MarketWatch - CryptoMarket">
+        <classes>
+            <class name="test_app.smoke.TestCryptoMarketPage"/>
+        </classes>
+    </test>
+
+
 </suite>

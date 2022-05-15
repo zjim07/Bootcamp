@@ -9,4 +9,17 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="url" value="http://expedia.com"/>
 
+    <test name="Expedia - Newsroom">
+        <classes>
+            <class name="test_app.smoke.TestNewsroomPage"/>
+        </classes>
+    </test>
+
+    <test name="Expedia - Flights">
+        <classes>
+            <class name="test_app.smoke.TestVacationSearch"/>
+        </classes>
+    </test>
+
+
 </suite>
