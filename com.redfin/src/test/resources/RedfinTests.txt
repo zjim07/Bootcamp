@@ -11,7 +11,7 @@ Press Enter
 Test Case #3: Find Homes In New York.
 Navigate to URL.
 Enter 'New York' in search bar
-Press Enter
+Press Enter.
 
 Test Case #4: Find Homes In McLean.
 Navigate to URL.
