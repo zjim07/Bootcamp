@@ -83,13 +83,13 @@ public class TestATT extends BasePage {
         Homepage homepage=new Homepage();
         homepage.clickAccountDropDown();
         String ExpectedTest= "clickAccountDropDown";
-        Assert.assertEquals(ExpectedTest, "AccountDropDown");
+        Assert.assertEquals(ExpectedTest, "clickAccountDropDown");
     }
     @Test
     public void testSupportButton(){
         Homepage homePage=new Homepage();
         homePage.clickSupportButton();
-        String ExpectedTest= "clickExpectedTest";
+        String ExpectedTest= "clickSupportButton";
         Assert.assertEquals(ExpectedTest, "clickSupportButton");
     }
 }
