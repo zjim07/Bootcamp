@@ -26,7 +26,18 @@
         <module>com.automationpractice</module>
     </modules>
     <dependencies>
-
+        <dependency>
+            <groupId>com.piit</groupId>
+            <artifactId>base</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.piit</groupId>
+            <artifactId>base</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
     <properties>
