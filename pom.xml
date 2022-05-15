@@ -25,6 +25,9 @@
         <module>com.ebay</module>
         <module>com.automationpractice</module>
     </modules>
+    <dependencies>
+
+    </dependencies>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
