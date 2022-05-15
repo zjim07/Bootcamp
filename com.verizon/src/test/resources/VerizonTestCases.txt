@@ -1,0 +1,6 @@
+Test Case #1:
+
+1. Navigate to Verizon.com
+2. Scroll down to the footer and select "Accessories"
+3. Under phone accessories, select "Cases"
+4. Verify that the page you are redirected to matches the

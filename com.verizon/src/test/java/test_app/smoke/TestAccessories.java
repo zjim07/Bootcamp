@@ -37,6 +37,32 @@ import test_base.BaseTest;
 public class TestAccessories extends BaseTest {
 
     @Test
+    public void testAllFilteredItems() {
+        Homepage homepage = new Homepage();
+        homepage.clickAccessoriesLink();
+        AccessoriesPage ap = new AccessoriesPage();
+        String categoryName = excel.readStringList("ChargingAccessories").get(1);
+        ap.clickChargingAccessoriesColumnCategory(categoryName);
+        CarChargersMounts chargers = new CarChargersMounts();
+        boolean arePricesCorrect = chargers.verifyAllFilters();
+        Assert.assertTrue(arePricesCorrect);
+    }
+
+    @Test
+    public void test0to25PriceFilter() throws InterruptedException {
+        Homepage homepage = new Homepage();
+        homepage.clickAccessoriesLink();
+        AccessoriesPage ap = new AccessoriesPage();
+        String categoryName = excel.readStringList("ChargingAccessories").get(1);
+        ap.clickChargingAccessoriesColumnCategory(categoryName);
+        CarChargersMounts chargers = new CarChargersMounts();
+        chargers.click0to25Button();
+        Thread.sleep(3000);
+        boolean isPriceWithinRange = chargers.makeSurePriceIsWithinRange(0, 15);
+        Assert.assertTrue(isPriceWithinRange);
+    }
+
+    @Test
     public void testPhoneCasesLink() {
         Homepage homepage = new Homepage();
         homepage.clickAccessoriesLink();

@@ -78,7 +78,7 @@ public class BasePage {
 
     @Parameters({"driverConfigEnabled", "browser", "url"})
     @BeforeMethod
-    public void driverSetup(@Optional("true") String driverConfigEnabled, @Optional("chrome") String browser, @Optional("http://booking.com") String url) {
+    public void driverSetup(@Optional("true") String driverConfigEnabled, @Optional("chrome") String browser, @Optional("http://bmwusa.com") String url) {
         if (Boolean.parseBoolean(driverConfigEnabled)) {
             driverInit(browser);
             driver.get(url);
@@ -211,6 +211,15 @@ public class BasePage {
         select.selectByValue(value);
     }
 
+    public boolean isElementInvisible(WebElement element) {
+        try {
+            webDriverWait.until(ExpectedConditions.invisibilityOf(element));
+        } catch (TimeoutException e) {
+            return false;
+        }
+        return true;
+    }
+
     public boolean isElementVisible(WebElement element) {
         try {
             fluentWait.until(ExpectedConditions.visibilityOf(element));
@@ -247,6 +256,19 @@ public class BasePage {
         String query = "arguments[0].getPropertyValue('innerHTML');";
 
         return jsDriver.executeScript(query, element).toString();
+    }
+
+    public String getElementText(WebElement element) {
+        String text = "";
+        webDriverWait.until(ExpectedConditions.visibilityOf(element));
+
+        text = element.getText();
+
+        if (text.equals("")) {
+            text = element.getAttribute("innerHTML");
+        }
+
+        return text;
     }
 
     // TODO - Unit test and refactor as needed
