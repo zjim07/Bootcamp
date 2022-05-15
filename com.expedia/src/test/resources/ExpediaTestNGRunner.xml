@@ -9,4 +9,9 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="url" value="http://expedia.com"/>
 
+    <test name="Book Vacation">
+        <classes>
+            <class name="TestBooking"/>
+        </classes>
+    </test>
 </suite>

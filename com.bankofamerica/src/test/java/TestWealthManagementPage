@@ -1,0 +1,115 @@
+import base.BasePage;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import pom.WealthManagementPage;
+import shared.Homepage;
+import utils.GenerateData;
+
+public class TestWealthManagementPage extends BasePage {
+    @Test
+    public void testRequestConnectWithMerrillAdvisorFor250kInvestmentOrLess(){
+        Homepage homepage = new Homepage();
+        WealthManagementPage wealthManagementPage = homepage.clickWealthManagement();
+        String firstName = GenerateData.firstName();
+        wealthManagementPage.keyFirstName(firstName);
+        String lastName = GenerateData.lastName();
+        wealthManagementPage.keyLastName(lastName);
+        wealthManagementPage.keyEmail("kate1@gmail.com");
+        wealthManagementPage.confirmEmail("scott1@hotmail.com");
+        wealthManagementPage.keyPhoneNumber("6325896554");
+        String zipCode = GenerateData.zipCode();
+        wealthManagementPage.keyZipCode(zipCode);
+        wealthManagementPage.selectPortfolioSize(1);
+        wealthManagementPage.clickGetStarted();
+
+        Assert.assertTrue(isElementVisible(wealthManagementPage.merrillSubmissionConfirmation));
+        Assert.assertEquals(getElementText(wealthManagementPage.merrillSubmissionConfirmation),
+                excel.readStringList("WealthManagement").get(0));
+
+    }
+    @Test
+    public void testRequestConnectWithMerrillAdvisorFor250kTo1MillInvestment(){
+        Homepage homepage = new Homepage();
+        WealthManagementPage wealthManagementPage = homepage.clickWealthManagement();
+        String firstName = GenerateData.firstName();
+        wealthManagementPage.keyFirstName(firstName);
+        String lastName = GenerateData.lastName();
+        wealthManagementPage.keyLastName(lastName);
+        wealthManagementPage.keyEmail("jessie78@yahoo.com");
+        wealthManagementPage.confirmEmail("john34@gmail.com");
+        wealthManagementPage.keyPhoneNumber("5048563265");
+        String zipCode = GenerateData.zipCode();
+        wealthManagementPage.keyZipCode(zipCode);
+        wealthManagementPage.selectPortfolioSize(2);
+        wealthManagementPage.clickGetStarted();
+
+        Assert.assertTrue(isElementVisible(wealthManagementPage.merrillSubmissionConfirmation));
+        Assert.assertEquals(getElementText(wealthManagementPage.merrillSubmissionConfirmation),
+                excel.readStringList("WealthManagement").get(0));
+
+    }
+    @Test
+    public void testRequestConnectWithMerrillAdvisorFor1MillTo10MillInvestment(){
+        Homepage homepage = new Homepage();
+        WealthManagementPage wealthManagementPage = homepage.clickWealthManagement();
+        String firstName = GenerateData.firstName();
+        wealthManagementPage.keyFirstName(firstName);
+        String lastName = GenerateData.lastName();
+        wealthManagementPage.keyLastName(lastName);
+        wealthManagementPage.keyEmail("brian9@gmail.com");
+        wealthManagementPage.confirmEmail("brian9@gmail.com");
+        wealthManagementPage.keyPhoneNumber("4502367745");
+        String zipCode = GenerateData.zipCode();
+        wealthManagementPage.keyZipCode(zipCode);
+        wealthManagementPage.selectPortfolioSize(3);
+        wealthManagementPage.clickGetStarted();
+
+        Assert.assertTrue(isElementVisible(wealthManagementPage.merrillSubmissionConfirmation));
+        Assert.assertEquals(getElementText(wealthManagementPage.merrillSubmissionConfirmation),
+                excel.readStringList("WealthManagement").get(0));
+
+    }
+    @Test
+    public void testRequestConnectWithMerrillAdvisorForOver10MillInvestment(){
+        Homepage homepage = new Homepage();
+        WealthManagementPage wealthManagementPage = homepage.clickWealthManagement();
+        String firstName = GenerateData.firstName();
+        wealthManagementPage.keyFirstName(firstName);
+        String lastName = GenerateData.lastName();
+        wealthManagementPage.keyLastName(lastName);
+        wealthManagementPage.keyEmail("george4@yahoo.com");
+        wealthManagementPage.confirmEmail("george4@yahoo.com");
+        wealthManagementPage.keyPhoneNumber("3015896552");
+        String zipCode = GenerateData.zipCode();
+        wealthManagementPage.keyZipCode(zipCode);
+        wealthManagementPage.selectPortfolioSize(4);
+        wealthManagementPage.clickGetStarted();
+
+        Assert.assertTrue(isElementVisible(wealthManagementPage.merrillSubmissionConfirmation));
+        Assert.assertEquals(getElementText(wealthManagementPage.merrillSubmissionConfirmation),
+                excel.readStringList("WealthManagement").get(0));
+
+    }
+    @Test
+    public void testRequestConnectWithMerrillAdvisorSpeakToSomeoneFirst(){
+        Homepage homepage = new Homepage();
+        WealthManagementPage wealthManagementPage = homepage.clickWealthManagement();
+        String firstName = GenerateData.firstName();
+        wealthManagementPage.keyFirstName(firstName);
+        String lastName = GenerateData.lastName();
+        wealthManagementPage.keyLastName(lastName);
+        wealthManagementPage.keyEmail("georgia32@hotmail.com");
+        wealthManagementPage.confirmEmail("georgia32@hotmail.com");
+        wealthManagementPage.keyPhoneNumber("2405896652");
+        String zipCode = GenerateData.zipCode();
+        wealthManagementPage.keyZipCode(zipCode);
+        wealthManagementPage.selectPortfolioSize(5);
+        wealthManagementPage.clickGetStarted();
+
+        Assert.assertTrue(isElementVisible(wealthManagementPage.merrillSubmissionConfirmation));
+        Assert.assertEquals(getElementText(wealthManagementPage.merrillSubmissionConfirmation),
+                excel.readStringList("WealthManagement").get(0));
+
+    }
+
+}

@@ -1,0 +1,276 @@
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import pom.Homepage;
+
+public class TestBookingPage extends Homepage {
+    @Test
+    public void testDubaiStay() {
+        Homepage homepage = new Homepage();
+        String destination = "Dubai";
+        homepage.typeInSearchBar(destination);
+        homepage.selectRandomAutoSuggestion();
+        homepage.selectTodaysDate();
+        homepage.selectRandomDayWithin30Days();
+        homepage.selectGuestsBar();
+        homepage.addAnAdult();
+        homepage.addARoom();
+        homepage.clickSubmit();
+        if(homepage.popUp.isDisplayed()){
+            homepage.closePopUp();
+        }
+        Assert.assertEquals(getElementText(homepage.staysSearchConfirmation), excel.readStringList("Locations").get(0));
+    }
+    @Test
+    public void testLosAngelesStay() {
+        Homepage homepage = new Homepage();
+        String destination = "Los Angeles";
+        homepage.typeInSearchBar(destination);
+        homepage.selectRandomAutoSuggestion();
+        homepage.selectTodaysDate();
+        homepage.selectRandomDayWithin30Days();
+        homepage.selectGuestsBar();
+        homepage.addAnAdult();
+        homepage.addARoom();
+        homepage.clickSubmit();
+        if(homepage.popUp.isDisplayed()){
+            homepage.closePopUp();
+        }
+
+        Assert.assertEquals(getElementText(homepage.staysSearchConfirmation), excel.readStringList("Locations").get(0));
+    }
+    @Test
+    public void testLondonStay() {
+        Homepage homepage = new Homepage();
+        String destination = "London";
+        homepage.typeInSearchBar(destination);
+        homepage.selectRandomAutoSuggestion();
+        homepage.selectTodaysDate();
+        homepage.selectRandomDayWithin30Days();
+        homepage.selectGuestsBar();
+        homepage.addAnAdult();
+        homepage.addARoom();
+        homepage.clickSubmit();
+        if(homepage.popUp.isDisplayed()){
+            homepage.closePopUp();
+        }
+
+        Assert.assertEquals(getElementText(homepage.staysSearchConfirmation), excel.readStringList("Locations").get(0));
+    }
+    @Test
+    public void testParisStay() {
+        Homepage homepage = new Homepage();
+        String destination = "Paris";
+        homepage.typeInSearchBar(destination);
+        homepage.selectRandomAutoSuggestion();
+        homepage.selectTodaysDate();
+        homepage.selectRandomDayWithin30Days();
+        homepage.selectGuestsBar();
+        homepage.addAnAdult();
+        homepage.addARoom();
+        homepage.clickSubmit();
+        if(homepage.popUp.isDisplayed()){
+            homepage.closePopUp();
+        }
+
+        Assert.assertEquals(getElementText(homepage.staysSearchConfirmation), excel.readStringList("Locations").get(0));
+    }
+    @Test
+    public void testSanJuanStay() {
+        Homepage homepage = new Homepage();
+        String destination = "San Juan";
+        homepage.typeInSearchBar(destination);
+        homepage.selectRandomAutoSuggestion();
+        homepage.selectTodaysDate();
+        homepage.selectRandomDayWithin30Days();
+        homepage.selectGuestsBar();
+        homepage.addAnAdult();
+        homepage.addARoom();
+        homepage.clickSubmit();
+        if(homepage.popUp.isDisplayed()){
+            homepage.closePopUp();
+        }
+
+        Assert.assertEquals(getElementText(homepage.staysSearchConfirmation), excel.readStringList("Locations").get(0));
+    }
+    @Test
+    public void testTokyoStay() {
+        Homepage homepage = new Homepage();
+        String destination = "Tokyo";
+        homepage.typeInSearchBar(destination);
+        homepage.selectRandomAutoSuggestion();
+        homepage.selectTodaysDate();
+        homepage.selectRandomDayWithin30Days();
+        homepage.selectGuestsBar();
+        homepage.addAnAdult();
+        homepage.addARoom();
+        homepage.clickSubmit();
+        if(homepage.popUp.isDisplayed()){
+            homepage.closePopUp();
+        }
+
+        Assert.assertEquals(getElementText(homepage.staysSearchConfirmation), excel.readStringList("Locations").get(0));
+    }
+    @Test
+    public void testBarcelonaStay() {
+        Homepage homepage = new Homepage();
+        String destination = "Barcelona";
+        homepage.typeInSearchBar(destination);
+        homepage.selectRandomAutoSuggestion();
+        homepage.selectTodaysDate();
+        homepage.selectRandomDayWithin30Days();
+        homepage.selectGuestsBar();
+        homepage.addAnAdult();
+        homepage.addARoom();
+        homepage.clickSubmit();
+        if(homepage.popUp.isDisplayed()){
+            homepage.closePopUp();
+        }
+
+        Assert.assertEquals(getElementText(homepage.staysSearchConfirmation), excel.readStringList("Locations").get(0));
+    }
+    @Test
+    public void testLisbonStay() {
+        Homepage homepage = new Homepage();
+        String destination = "Lisbon";
+        homepage.typeInSearchBar(destination);
+        homepage.selectRandomAutoSuggestion();
+        homepage.selectTodaysDate();
+        homepage.selectRandomDayWithin30Days();
+        homepage.selectGuestsBar();
+        homepage.addAnAdult();
+        homepage.addARoom();
+        homepage.clickSubmit();
+        if(homepage.popUp.isDisplayed()){
+            homepage.closePopUp();
+        }
+
+        Assert.assertEquals(getElementText(homepage.staysSearchConfirmation), excel.readStringList("Locations").get(0));
+    }
+    @Test
+    public void testRomeStay() {
+        Homepage homepage = new Homepage();
+        String destination = "Rome";
+        homepage.typeInSearchBar(destination);
+        homepage.selectRandomAutoSuggestion();
+        homepage.selectTodaysDate();
+        homepage.selectRandomDayWithin30Days();
+        homepage.selectGuestsBar();
+        homepage.addAnAdult();
+        homepage.addARoom();
+        homepage.clickSubmit();
+        if(homepage.popUp.isDisplayed()){
+            homepage.closePopUp();
+        }
+
+        Assert.assertEquals(getElementText(homepage.staysSearchConfirmation), excel.readStringList("Locations").get(0));
+    }
+    @Test
+    public void testManchesterStay() {
+        Homepage homepage = new Homepage();
+        String destination = "Manchester";
+        homepage.typeInSearchBar(destination);
+        homepage.selectRandomAutoSuggestion();
+        homepage.selectTodaysDate();
+        homepage.selectRandomDayWithin30Days();
+        homepage.selectGuestsBar();
+        homepage.addAnAdult();
+        homepage.addARoom();
+        homepage.clickSubmit();
+        if(homepage.popUp.isDisplayed()){
+            homepage.closePopUp();
+        }
+
+        Assert.assertEquals(getElementText(homepage.staysSearchConfirmation), excel.readStringList("Locations").get(0));
+    }
+    @Test
+    public void testMiamiStay() {
+        Homepage homepage = new Homepage();
+        String destination = "Miami";
+        homepage.typeInSearchBar(destination);
+        homepage.selectRandomAutoSuggestion();
+        homepage.selectTodaysDate();
+        homepage.selectRandomDayWithin30Days();
+        homepage.selectGuestsBar();
+        homepage.addAnAdult();
+        homepage.addARoom();
+        homepage.clickSubmit();
+        if(homepage.popUp.isDisplayed()){
+            homepage.closePopUp();
+        }
+
+        Assert.assertEquals(getElementText(homepage.staysSearchConfirmation), excel.readStringList("Locations").get(0));
+    }
+    @Test
+    public void testSydneyStay() {
+        Homepage homepage = new Homepage();
+        String destination = "Sydney";
+        homepage.typeInSearchBar(destination);
+        homepage.selectRandomAutoSuggestion();
+        homepage.selectTodaysDate();
+        homepage.selectRandomDayWithin30Days();
+        homepage.selectGuestsBar();
+        homepage.addAnAdult();
+        homepage.addARoom();
+        homepage.clickSubmit();
+        if(homepage.popUp.isDisplayed()){
+            homepage.closePopUp();
+        }
+
+        Assert.assertEquals(getElementText(homepage.staysSearchConfirmation), excel.readStringList("Locations").get(0));
+    }
+    @Test
+    public void testCancunStay() {
+        Homepage homepage = new Homepage();
+        String destination = "Cancun";
+        homepage.typeInSearchBar(destination);
+        homepage.selectRandomAutoSuggestion();
+        homepage.selectTodaysDate();
+        homepage.selectRandomDayWithin30Days();
+        homepage.selectGuestsBar();
+        homepage.addAnAdult();
+        homepage.addARoom();
+        homepage.clickSubmit();
+        if(homepage.popUp.isDisplayed()){
+            homepage.closePopUp();
+        }
+
+        Assert.assertEquals(getElementText(homepage.staysSearchConfirmation), excel.readStringList("Locations").get(0));
+    }
+    @Test
+    public void testDublinStay() {
+        Homepage homepage = new Homepage();
+        String destination = "Dublin";
+        homepage.typeInSearchBar(destination);
+        homepage.selectRandomAutoSuggestion();
+        homepage.selectTodaysDate();
+        homepage.selectRandomDayWithin30Days();
+        homepage.selectGuestsBar();
+        homepage.addAnAdult();
+        homepage.addARoom();
+        homepage.clickSubmit();
+        if(homepage.popUp.isDisplayed()){
+            homepage.closePopUp();
+        }
+
+        Assert.assertEquals(getElementText(homepage.staysSearchConfirmation), excel.readStringList("Locations").get(0));
+    }
+    @Test
+    public void testSingaporeStay() {
+        Homepage homepage = new Homepage();
+        String destination = "Singapore";
+        homepage.typeInSearchBar(destination);
+        homepage.selectRandomAutoSuggestion();
+        homepage.selectTodaysDate();
+        homepage.selectRandomDayWithin30Days();
+        homepage.selectGuestsBar();
+        homepage.addAnAdult();
+        homepage.addARoom();
+        homepage.clickSubmit();
+        if(homepage.popUp.isDisplayed()){
+            homepage.closePopUp();
+        }
+
+        Assert.assertEquals(getElementText(homepage.staysSearchConfirmation), excel.readStringList("Locations").get(0));
+    }
+
+}
