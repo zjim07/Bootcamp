@@ -1,0 +1,59 @@
+Test Case 1
+Navigate to bankofamerica.com
+Select "checking" button
+page is redirected to "checking" page
+
+Test Case 2
+Navigate to bankofamerica.com
+select "savings" button
+Select "online banking"
+page is redirected to "online banking"
+
+Test Case 3
+Navigate to bankofamerica.com
+select "credit cards"
+select "shop all credit cards"
+Page is redirected to "shop all credit cards"
+
+Test Case 4
+Navigate to bankofamerica.com
+Hover over "home loans"
+select "mortgages"
+redirected to mortgage page
+
+Test case 5
+Navigate to bankofamerica.com
+Hover over "autoloans"
+select "check application status"
+page is redirected to "check application status" page
+
+Test case 6
+Navigate to bankofamerica.com
+select "investing" button
+select "get started" button
+page is redirected to "get started" page
+
+Test case 7
+Navigate to bankofamerica.com
+select "open account" option
+"open account" page is opened
+
+Test case 8
+Navigate to bankofamerica.com
+select "explore our app" button
+page is navigated to "explore our app" page
+
+Test case 9
+Navigate to bankofamerica.com
+select "contact us"
+page of "contact us" is shown
+
+Test case 10
+Navigate to bankofamerica.com
+select "schedule an appointment"
+page is redirected to "schedule an appointment"
+
+Test case 11
+Navigate to bankofamerica.com
+select "small business"
+page is redirected to "small business" page

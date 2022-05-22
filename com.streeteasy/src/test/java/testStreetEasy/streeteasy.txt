@@ -1,0 +1,54 @@
+Test case 1
+Navigate to streeteasy.com
+select "location" and type "brooklyn"
+then press enter for results
+
+Test case 2
+Navigate to streeteasy.com
+select "rent"
+results with "rent" are shown
+
+Test case 3
+Navigate to streeteasy.com
+select "buy" button
+"buy" options are shown
+
+Test case 4
+Navigate to streeteasy.com
+select "sell" button
+"sell" options are shown
+
+Test case 5
+Navigate to streeteasy.com
+select "buildings"
+click on "manhattan" and results are shown
+
+Test case 6
+Navigate to streeteasy.com
+select "resources" button
+select "mortgage rates" and results are shown
+
+Test case 7
+Navigate to streeteasy.com
+select "blog"
+results with "blog" are shown
+
+Test case 8
+Navigate to streeteasy.com
+select "contact us"
+page with "contact us" is shown
+
+Test case 9
+Navigate to streeteasy.com
+select "search rentals"
+search rentals results are shown
+
+Test case 10
+Navigate to streeteasy.com
+select "search sales"
+search sales results are shown
+
+Test case 11
+Navigate to streeteasy.com
+select "see seller tools" button
+"see seller tools" are shown

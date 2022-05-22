@@ -1,0 +1,54 @@
+Test case 1
+Navigate to expedia.com
+Select "more travel" button
+"more travel" page is openedd
+
+Test case 2
+Navigate to expedia.com
+select "about" button
+"about" page is opened
+
+Test case 3
+Navigate to expedia.com
+select "USA Travel Guide"
+Page is opened of "USA travel guide"
+
+Test case 4
+Navigate to expedia.com
+select "hotels in USA"
+page with "hotels in USA" is opened
+
+Test case 5
+Navigate to expedia.com
+select "domestic flights"
+pages with "domestic flights" is opened
+
+Test case 6
+Navigate to expedia.com
+select "vacation rentals" button
+page with "vacation rentals" results is opened
+
+Test case 7
+Navigate to expedia.com
+select "car rentals"
+page with "car rentals" is opened
+
+Test case 8
+Navigate to expedia.com
+select "support" button
+page with "support" results is shown
+
+Test case 9
+Navigate to expedia.com
+select "cancel your flight" option
+flight cancellation page is shown
+
+Test case 10
+Navigate to expedia.com
+select "expedia coupon"
+page with "expedia coupon" is opened
+
+Test case 11
+Navigate to expedia.com
+select "vacation packages" tab
+"vacation packages" page is opened

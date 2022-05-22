@@ -1,0 +1,56 @@
+Test case 1
+Navigate to sofi.com
+select "products"
+"products" page is opened
+
+Test case 2
+Navigate to sofi.com
+select "member benefits" button
+page is redirected to "member benefits"
+
+Test case 3
+Navigate to sofi.com
+select "become a member" button
+page is redirected to "become a member"
+
+Test case 4
+Navigate to sofi.com
+Select "log in"
+select "create an account"
+type "Manahil Malik"
+then click login
+
+Test case 5
+Navigate to sofi.com
+select "resources"
+page is navigated to "resources" page
+
+Test case 6
+Navigate to sofi.com
+select "about"
+page is navigated to "about" page
+
+Test case 7
+Navigate to sofi.com
+select "get started" button
+page is redirected to "get started"
+
+Test case 8
+Navigate to sofi.com
+select "invest" button
+page is redirected to invest page
+
+Test case 9
+Navigate to sofi.com
+select "personal loans" button
+page is redirected to "personal loans"
+
+Test case 10
+Navigate to sofi.com
+select "private student loans"
+page is redirected to "private student loans"
+
+Test case 11
+Navigate to sofi.com
+select "insurance" tab
+page is redirected to "insurance" page

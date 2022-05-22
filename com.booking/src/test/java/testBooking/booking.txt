@@ -1,0 +1,58 @@
+Test case 1
+Navigate to booking.com
+select "flights"
+then select "where to"
+Type "LAX" in search bar
+Then click search button to see results
+
+Test case 2
+Navigate to booking.com
+select "car rentals"
+page is navigated to "car rentals"
+
+Test case 3
+Navigate to booking.com
+Select "register" option
+Enter email address "manahil@gmail.com"
+enter password
+click on search button
+
+Test case 4
+Navigate to booking.com
+select "attractions"
+page is navigated to 'attractions'
+
+Test case 5
+Navigate to booking.com
+select "airport taxis"
+page is navigated to "airport taxis"
+
+Test case 6
+Navigate to booking.com
+select "USD currency"
+page is redirected to "USD currency"
+
+Test case 7
+Navigate to booking.com
+select "explore deals"
+page is redirected to "explore deals"
+
+Test case 8
+Navigate to booking.com
+select "hotels"
+"hotels" is selected and new page is opened
+
+Test case 9
+Navigate to booking.com
+select "Las Vegas"
+"Las Vegas" is selected and page is opened
+
+Test case 10
+Navigate to booking.com
+select "regions"
+page is redirected to "regions"
+
+Test case 11
+Navigate to booking.com
+select "list your property"
+page is opened

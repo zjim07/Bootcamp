@@ -1,0 +1,54 @@
+Test case 1
+Navigate to Automationpratice.com
+Select "Women" button
+"Women" page opens up
+
+Test Case 2
+Navigate to Automationpratice.com
+select "dresses" button
+"dresses" page opens up
+
+Test Case 3
+Navigate to Automationpratice.com
+Select "sign in" button
+"sign in" button opens up
+
+Test Case 4
+Navigate to Automationpratice.com
+Select "Shop now" button
+Page is redirected to "shop now" page
+
+Test Case 5
+Navigate to Automationpratice.com
+Select "Days sale"
+page is redirected to "days sale" page.
+
+Test Case 6
+Navigate to Automationpratice.com
+Select "Summer Collection"
+Page redirects to "summer collection" page.
+
+Test Case 7
+Navigate to Automationpratice.com
+select "add to cart" button
+Page is redirected to "add to cart" page.
+
+Test Case 8
+Navigate to Automationpratice.com
+Enter email address "manahil@gmail.com"
+Select "create an account" after inputting a password.
+
+Test Case 9
+Navigate to Automationpratice.com
+Select "Get savings now" button
+page is navigated to "Get savings now" page
+
+Test Case 10
+Navigate to Automationpratice.com
+select "your logo"
+page is navigated to "your logo" page
+
+Test Case 11
+Navigate to Automationpratice.com
+select "top trends" button
+"top trends" page opens up.

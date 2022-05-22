@@ -1,0 +1,56 @@
+Test case 1
+Navigate to redfin.com
+Click the search bar and enter "Aldie"
+Select the search icon for results
+
+Test case 2
+Navigate to redfin.com
+select "sell" and then select "rent"
+type "20105" and then click search for results
+
+Test case 3
+Navigate to redfin.com
+Hover over "sell" dropdown
+options can be seen in the dropdown
+
+Test case 4
+Navigate to redfin.com
+select "buy" button
+options with "buy" are shown
+
+Test case 5
+Navigate to redfin.com
+select "mortgage" button
+"mortgage" options are shown
+
+Test case 6
+Navigate to redfin.com
+select "real estate agents"
+page with the results are shown
+
+Test case 7
+Navigate to redfin.com
+select "feed"
+"feed" page is opened
+
+Test case 8
+Navigate to redfin.com
+Select "sign up"
+enter email address
+select continue with email button
+page is redirected to new page
+
+Test case 9
+Navigate to redfin.com
+select "see housing news"
+"see housing news" are shown
+
+Test case 10
+Navigate to redfin.com
+select "be a redfin agent"
+page is redirected to "be a redfin agent"
+
+Test case 11
+Navigate to redfin.com
+select "ashburn real estate"
+page is redirected to show results

@@ -1,0 +1,57 @@
+Test case 1
+Navigate to bmwusa.com
+select "preorder" button
+page is redirected to "preorder"
+
+Test case 2
+Navigate to bmwusa.com
+click on search bar
+enter "bmw2020" in search bar and press enter
+results are shown in the following page
+
+Test case 3
+Navigate to bmwusa.com
+select "models"
+page with "models" is opened
+
+Test case 4
+Navigate to bmwusa.com
+select "build your own" button
+page is redirected to it
+
+Test case 5
+Navigate to bmwusa.com
+Hover at "shopping"
+type "20105" in search bar
+Car results will be shown
+
+Test case 6
+Navigate to bmwusa.com
+select "BMW Certified"
+page is redirected to "BMW Certified"
+
+Test case 7
+Navigate to bmwusa.com
+select "my bmw"
+select "register now"
+page is redirected to "register now"
+
+Test case 8
+Navigate to bmwusa.com
+select "contact dealer"
+"contact dealer" page is shown
+
+Test case 9
+Navigate to bmwusa.com
+select "start designing"
+page is navigated to "start designing"
+
+Test case 10
+Navigate to bmwusa.com
+select "learn more"
+"learn more" page is opened
+
+Test case 11
+Navigate to bmwusa.com
+Select "MyBMWApp"
+Page is navigated to "my BMW App"

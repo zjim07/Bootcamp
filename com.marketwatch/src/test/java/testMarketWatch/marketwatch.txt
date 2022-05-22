@@ -1,0 +1,55 @@
+Test case 1
+Navigate to marketwatch.com
+select "markets"
+page with "markets" is opened
+
+Test case 2
+Navigate to marketwatch.com
+select "crypto" button
+"crypto" page is opened
+
+Test case 3
+Navigate to marketwatch.com
+Select "Dow"
+Page with "Dow" is opened
+
+Test case 4
+Navigate to marketwatch.com
+select "account settings" button
+select "sign up" option
+user able to "sign up"
+
+Test case 5
+Navigate to marketwatch.com
+select "investing" button
+"investing" page is opened
+
+Test case 6
+Navigate to marketwatch.com
+select "Elon Musk Twitter"
+page is redirected to "Elon Musk Twitter"
+
+Test case 7
+Navigate to marketwatch.com
+select "stock market correction"
+page is opened of "stock market correction"
+
+Test case 8
+Navigate to marketwatch.com
+select "personal finance" button
+page is redirected to "personal finance"
+
+Test case 9
+Navigate to marketwatch.com
+Select "economy" option
+page with "economy" is opened
+
+Test case 10
+Navigate to marketwatch.com
+select "nasdaq" button
+"nasdaq" results shown in new page
+
+Test case 11
+Navigate to marketwatch.com
+select "Retirement"
+"retirement" page is opened

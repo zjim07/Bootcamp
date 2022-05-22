@@ -1,0 +1,56 @@
+Test case 1
+Navigate to mbusa.com
+Select "vehicles" button
+page is navigated to "vehicles"
+
+Test case 2
+Navigate to mbusa.com
+select "shopping"
+"shopping" page is opened
+
+Test case 3
+Navigate to mbusa.com
+select "inventory"
+"inventory" page is opened
+
+Test case 4
+Navigate to mbusa.com
+select "find a dealer"
+enter "zipcode"
+Type "20105" in zipcode and press enter
+
+Test case 5
+Navigate to mbusa.com
+select "my account" button
+select "register" button
+new page of "register" opens
+
+Test case 6
+Navigate to mbusa.com
+select "Explore the EQS" option
+New page opens of "explore the EQS"
+
+Test case 7
+Navigate to mbusa.com
+select "explore the C Class"
+page is redirected to "explore the C class"
+
+Test case 8
+Navigate to mbusa.com
+select "all vehicles"
+"all vehicles" page is opened
+
+Test case 9
+Navigate to mbusa.com
+Select "Build your own"
+page is redirected to "build your own"
+
+Test case 10
+Navigate to mbusa.com
+select "special offers"
+page with "special offers" opens up
+
+Test case 11
+Navigate to mbusa.com
+select "maintenance support"
+page is redirected to "maintenance support"

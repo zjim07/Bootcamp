@@ -1,0 +1,55 @@
+Test case 1
+Navigate to ebay.com
+Type in search bar "tablet"
+then press enter
+pages with "tablet" results will be opened
+
+Test case 2
+Navigate to ebay.com
+select "daily deals"
+page with "daily deals" is opened
+
+Test case 3
+Navigate to ebay.com
+select "Lets ride" button
+"lets ride" page is opened
+
+Test case 4
+Navigate to ebay.com
+select "My Ebay"
+page is navigated to "My ebay"
+
+Test case 5
+Navigate to ebay.com
+select "sell"
+"sell" page is opened
+
+Test case 6
+Navigate to ebay.com
+select "Saved" button
+"Saved" page is opened
+
+Test case 7
+Navigate to ebay.com
+Select "motors"
+"motors" page is opened
+
+Test case 8
+Navigate to ebay.com
+select "how to donate"
+"how to donate" page is opened
+
+Test case 9
+Navigate to ebay.com
+select "Shop Now"
+"shop now" page is opened
+
+Test case 10
+Navigate to ebay.com
+select "Get your thing"
+"Get your thing" is opened
+
+Test case 11
+Navigate to ebay.com
+select "Registration"
+"Registration" page is opened

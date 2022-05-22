@@ -1,0 +1,55 @@
+Test case 1
+Navigate to espn.com
+select "watch" button
+page of "watch" is opened
+
+Test case 2
+Navigate to espn.com
+select "listen" button
+page of "listen" is opened
+
+Test case 3
+Navigate to espn.com
+Select "fantasy" button
+page of "fantasy" is opened
+
+Test case 4
+Navigate to espn.com
+Select "NHL Game" button
+"NHL Game" page is opened
+
+Test case 5
+Navigate to espn.com
+Hover over dots drop down
+select "Andscape" button
+new page is opened
+
+Test case 6
+Navigate to espn.com
+type in search bar "game"
+"game" results show
+
+Test case 7
+Navigate to espn.com
+select "NFL"
+"NFL" page is opened
+
+Test case 8
+Navigate to espn.com
+select "NBA"
+"NBA" page is shown with results
+
+Test case 9
+Navigate to espn.com
+select "NHL"
+"NHL" page is opened with results
+
+Test case 10
+Navigate to espn.com
+select "patriots"
+"patriots" page is opened
+
+Test case 11
+Navigate to espn.com
+select "Listen Live"
+"Listen Live" is opened

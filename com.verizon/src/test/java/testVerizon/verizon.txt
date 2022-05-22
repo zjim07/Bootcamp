@@ -1,0 +1,56 @@
+Test case 1
+Navigate to verizon.com
+Select "shop verizon"
+"shop verizon" results are shown
+
+Test case 2
+Navigate to verizon.com
+select "sign in"
+select "register" and enter the required information
+select "register"
+
+Test case 3
+Navigate to verizon.com
+Select search icon and select "search bar"
+Type "Iphone" in the search bar and click search
+Pages with "Iphone" are shown
+
+Test case 4
+Navigate to verizon.com
+select "why verizon"
+results with "why verizon" are shown
+
+Test case 5
+Navigate to verizon.com
+Select "support"
+page with "support" is shown
+
+Test case 6
+Navigate to verizon.com
+Select "stores"
+page with "stores" is shown
+
+Test case 7
+Navigate to verizon.com
+select "shop now"
+"shop now" results are shown
+
+Test case 8
+Navigate to verizon.com
+select "Iphone 13"
+page is redirected to "iphone 13"
+
+Test case 9
+Navigate to verizon.com
+select "shop phones"
+"shop phones" page is shown
+
+Test case 10
+Navigate to verizon.com
+select "shop watches"
+"shop watches" page is shown
+
+Test case 11
+Navigate to verizon.com
+select "shop tablets"
+"shop tablets" page is shown

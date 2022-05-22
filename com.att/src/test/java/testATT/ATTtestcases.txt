@@ -1,0 +1,56 @@
+Test Case 1
+Navigate to ATT.com
+Open homepage
+Select deals button
+Navigate to deals page
+
+Test Case 2
+Navigate to ATT.com
+Enter "phone" in search bar
+Phone page opens when search icon is clicked
+
+Test Case 3
+Navigate to ATT.com
+Select "phones and devices" button
+Page is redirected to "phones and devices"
+
+Test Case 4
+Navigate to ATT.com
+Select "wireless" option
+Page is redirected to wireless page
+
+Test Case 5
+Go to ATT.com
+Select "shop now" option
+"shop now" page opens
+
+Test Case 6
+Go to ATT.com
+Select "Learn More" tab
+"Learn More" page opens up
+
+Test Case 7
+Go to ATT.com
+Select "find a store" tab
+Search for store in the tab
+
+Test Case 8
+Go to ATT.com
+Select "sign me up" option
+In the search bar, type "manahil@yahoo.com"
+Enter the search bar for results
+
+Test Case 9
+Go to ATT.com
+Select "wireless" button
+"wireless" page opens up
+
+Test Case 10
+Go to ATT.com
+Hover over "account" drop down
+select "account" so the page is redirected there
+
+Test Case 11
+Go to ATT.com
+Select "Support" button
+Support page opens up
